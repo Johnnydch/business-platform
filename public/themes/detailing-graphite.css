@@ -1,0 +1,28 @@
+/* תבנית: דיטיילינג ושטיפת רכב – גרפיט וטורקיז חשמלי, פינות חדות, פסי אזהרה */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800&display=swap');
+:root {
+  color-scheme: dark;
+  --bg: #0d1013; --surface: #151a1f; --surface-2: #1c232a; --surface-3: #252e37;
+  --line: rgba(34, 211, 238, .30); --line-soft: rgba(255, 255, 255, .09);
+  --accent-rgb: 34, 211, 238;
+  --gold: #22d3ee; --gold-hi: #7be8f9; --gold-lo: #0e7f93;
+  --gold-grad: linear-gradient(135deg, #5ce1f6 0%, #22d3ee 55%, #0fa7c2 100%);
+  --on-accent: #04252b; --on-accent-2: #07424d;
+  --text: #eef3f6; --muted: #8e9ba6; --danger: #ff6b5e; --ok: #4ade80; --warn: #fbbf24;
+  --radius: 4px; --shadow: 0 10px 30px rgba(0, 0, 0, .55);
+  --font: 'Heebo', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Rubik', 'Heebo', system-ui, sans-serif;
+}
+body { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 2px, transparent 2px 14px), radial-gradient(800px 380px at 50% -140px, rgba(34, 211, 238, .16), transparent 70%); }
+h1, h2, h3 { font-weight: 800; letter-spacing: 0; }
+.brand { border-bottom: 1px solid var(--line-soft); margin-bottom: 18px; position: relative; }
+.brand::after { content: ''; position: absolute; inset-inline: 0; bottom: -1px; height: 4px; background: repeating-linear-gradient(135deg, var(--gold) 0 10px, transparent 10px 20px); opacity: .7; }
+.brand h1 { font-size: 30px; font-weight: 800; }
+.brand .mark { letter-spacing: 4px; font-weight: 700; }
+.orn { display: none; }
+.btn, .inp, .time, .day, .chip, .pill { border-radius: 4px; }
+.btn.primary { text-transform: none; box-shadow: 0 0 0 1px rgba(34, 211, 238, .4), 0 8px 24px rgba(34, 211, 238, .2); }
+.pick { border-inline-start: 4px solid var(--gold); }
+.pick.sel { background: var(--surface-3); }
+.avatar { border-radius: 4px; font-weight: 800; }
+.card.gold { border-inline-start: 4px solid var(--gold); }

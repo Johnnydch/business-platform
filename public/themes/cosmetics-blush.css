@@ -1,0 +1,30 @@
+/* תבנית: קוסמטיקה, ציפורניים וריסים – בהיר, ורוד-שנהב, פינות עגולות ורכות */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root {
+  color-scheme: light;
+  --bg: #fbf3f0; --surface: #ffffff; --surface-2: #fdf8f6; --surface-3: #f6e9e5;
+  --line: rgba(184, 80, 106, .32); --line-soft: rgba(80, 40, 50, .12);
+  --accent-rgb: 184, 80, 106;
+  --gold: #b8506a; --gold-hi: #9a3a54; --gold-lo: #d9a0ae;
+  --gold-grad: linear-gradient(135deg, #d4768d 0%, #b8506a 100%);
+  --on-accent: #fff; --on-accent-2: #ffe9ee;
+  --text: #3b2a2e; --muted: #86707a; --danger: #c0392b; --ok: #2e8b63; --warn: #b7791f;
+  --bar-bg: rgba(255,255,255,.94); --nav-bg: rgba(255,255,255,.94);
+  --radius: 22px; --shadow: 0 12px 30px rgba(120, 50, 70, .14);
+  --font: 'Heebo', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Varela Round', 'Heebo', system-ui, sans-serif;
+}
+body { background-image: radial-gradient(700px 360px at 85% -80px, rgba(232, 160, 175, .35), transparent 70%), radial-gradient(520px 300px at 0% 10%, rgba(214, 200, 180, .3), transparent 70%); }
+.brand h1 { background: none; color: var(--gold-hi); -webkit-text-fill-color: currentColor; font-size: 32px; font-weight: 400; }
+.brand .mark { letter-spacing: 3px; color: var(--gold); font-size: 12px; }
+.orn { width: 120px; }
+.orn i { transform: none; border-radius: 50%; width: 8px; height: 8px; }
+.pick, .card, .item { box-shadow: 0 6px 18px rgba(120, 50, 70, .07); }
+.btn, .inp, .time, .day { border-radius: 999px; }
+.inp { border-radius: 18px; background: #fff; }
+.day { border-radius: 20px; }
+.btn.primary { box-shadow: 0 8px 22px rgba(184, 80, 106, .32); }
+.avatar { box-shadow: 0 0 0 4px rgba(184, 80, 106, .14); }
+.dock { background: linear-gradient(180deg, transparent, var(--bg) 40%); }
+.overlay { background: rgba(60, 30, 40, .45); }
+.modal { background: #fff; }

@@ -1,0 +1,12 @@
+/* ערכת נושא: ברירת מחדל – כהה ניטרלי עם גוון כחול. תבניות אחרות מגדירות קובץ משלהן עם אותם משתנים (ראו docs/TEMPLATES.md) */
+:root {
+  --bg: #0b0f17; --surface: #121826; --surface-2: #1a2132; --surface-3: #232c40;
+  --line: rgba(110, 160, 255, .28); --line-soft: rgba(255, 255, 255, .08);
+  --accent-rgb: 110, 160, 255;
+  --gold: #6ea0ff; --gold-hi: #b5cdff; --gold-lo: #3d68c2;
+  --gold-grad: linear-gradient(135deg, #b5cdff 0%, #6ea0ff 48%, #3d68c2 100%);
+  --text: #eef2fb; --muted: #98a2b8; --danger: #e8685e; --ok: #5cc48f; --warn: #e4b04a;
+  --radius: 14px; --shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  --font: 'Heebo', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Heebo', system-ui, sans-serif;
+}

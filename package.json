@@ -1,0 +1,13 @@
+{
+  "name": "business-platform",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "פלטפורמת תבניות לעסקים (Supabase + Netlify). מוצר ראשון: מערכת הזמנת תורים לברברשופ.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "db:reset": "scripts/db-reset-local.sh",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "dev": "node scripts/dev-local.mjs"
+  }
+}

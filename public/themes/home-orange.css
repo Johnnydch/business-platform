@@ -1,0 +1,32 @@
+/* תבנית: בעלי מקצוע ושירותי בית – בהיר, נייבי וכתום בטיחות, קריא וישיר */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+:root {
+  color-scheme: light;
+  --bg: #f4f6f9; --surface: #ffffff; --surface-2: #f8fafc; --surface-3: #e9eef4;
+  --line: rgba(242, 106, 27, .45); --line-soft: rgba(15, 39, 66, .14);
+  --accent-rgb: 242, 106, 27;
+  --gold: #f26a1b; --gold-hi: #c4500d; --gold-lo: #f7a671;
+  --gold-grad: linear-gradient(135deg, #ff8340 0%, #f26a1b 100%);
+  --on-accent: #fff; --on-accent-2: #fff1e8;
+  --text: #0f2742; --muted: #5a6b80; --danger: #c62828; --ok: #1b7f4b; --warn: #b26a00;
+  --bar-bg: rgba(255,255,255,.96); --nav-bg: rgba(255,255,255,.96);
+  --radius: 10px; --shadow: 0 8px 24px rgba(15, 39, 66, .12);
+  --font: 'Heebo', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Secular One', 'Heebo', system-ui, sans-serif;
+}
+body { background-image: none; border-top: 6px solid var(--gold); }
+h1, h2, h3 { font-weight: 400; }
+.brand { text-align: start; padding-top: 22px; }
+.brand .mark { display: inline-block; letter-spacing: 0; text-transform: none; font-size: 14px; background: #0f2742; color: #fff; padding: 4px 12px; border-radius: 999px; }
+.brand h1 { background: none; color: #0f2742; -webkit-text-fill-color: currentColor; font-size: 36px; line-height: 1.15; }
+.brand .addr { font-size: 15px; }
+.orn { display: none; }
+.h-step { font-size: 24px; }
+.item, .card { box-shadow: 0 2px 8px rgba(15, 39, 66, .06); }
+.item .price, .pick .price { color: var(--gold-hi); }
+.btn { border-radius: 10px; font-weight: 700; }
+.btn.primary { box-shadow: 0 6px 16px rgba(242, 106, 27, .35); }
+.inp { background: #fff; border-color: rgba(15, 39, 66, .22); }
+.overlay { background: rgba(15, 39, 66, .5); }
+.modal { background: #fff; }
+.dock { background: linear-gradient(180deg, transparent, var(--bg) 40%); }

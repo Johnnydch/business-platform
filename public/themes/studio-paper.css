@@ -1,0 +1,33 @@
+/* תבנית: נותני שירות וסטודיואים – נייר שמנת, דיו שחור, טיפוגרפיה מערכתית */
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap');
+:root {
+  color-scheme: light;
+  --bg: #f4efe7; --surface: #fbf8f3; --surface-2: #ffffff; --surface-3: #ebe4d8;
+  --line: rgba(28, 28, 28, .55); --line-soft: rgba(28, 28, 28, .16);
+  --accent-rgb: 28, 28, 28;
+  --gold: #1c1c1c; --gold-hi: #1c1c1c; --gold-lo: #8a8478;
+  --gold-grad: linear-gradient(#1c1c1c, #1c1c1c);
+  --on-accent: #f4efe7; --on-accent-2: #d9d2c4;
+  --text: #1c1c1c; --muted: #6b665c; --danger: #a4262c; --ok: #2f6b4f; --warn: #8a5a00;
+  --bar-bg: rgba(244,239,231,.96); --nav-bg: rgba(244,239,231,.96);
+  --radius: 2px; --shadow: 0 1px 0 rgba(28, 28, 28, .2);
+  --font: 'Heebo', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-display: 'David Libre', 'Frank Ruhl Libre', Georgia, serif;
+}
+body { background-image: none; }
+h1, h2, h3 { font-weight: 500; letter-spacing: 0; }
+.brand { text-align: start; padding-bottom: 22px; border-bottom: 2px solid var(--text); margin-bottom: 22px; }
+.brand .mark { letter-spacing: 6px; font-size: 12px; color: var(--muted); }
+.brand h1 { background: none; color: var(--text); -webkit-text-fill-color: currentColor; font-size: 44px; line-height: 1.05; font-weight: 500; }
+.orn { display: none; }
+.h-step { font-size: 26px; border-bottom: 1px solid var(--line-soft); padding-bottom: 8px; }
+.card, .item, .pick { box-shadow: none; border-color: var(--line-soft); background: var(--surface); }
+.item { border-radius: 0; border-width: 0 0 1px; background: transparent; padding-inline: 0; }
+.btn, .inp, .time, .day, .chip, .pill { border-radius: 2px; }
+.btn.primary { box-shadow: none; letter-spacing: .5px; }
+.inp { background: #fff; border-color: rgba(28, 28, 28, .35); }
+.inp:focus { box-shadow: 0 0 0 3px rgba(28, 28, 28, .15); }
+.overlay { background: rgba(28, 28, 28, .5); }
+.modal { background: var(--bg); }
+a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.dock { background: linear-gradient(180deg, transparent, var(--bg) 40%); }

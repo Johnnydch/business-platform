@@ -1,0 +1,13 @@
+/* ערכת נושא: ברברשופ – שחור וזהב. תבניות אחרות מגדירות קובץ משלהן עם אותם משתנים (ראו docs/TEMPLATES.md) */
+:root {
+  --bg: #0a0a0b; --surface: #131315; --surface-2: #1b1b1e; --surface-3: #242428;
+  --line: rgba(201, 162, 75, .26); --line-soft: rgba(255, 255, 255, .08);
+  --accent-rgb: 201, 162, 75;
+  --gold: #c9a24b; --gold-hi: #ecd28f; --gold-lo: #8f6f26;
+  --gold-grad: linear-gradient(135deg, #ecd28f 0%, #c9a24b 48%, #9a7527 100%);
+  --text: #f4efe4; --muted: #a29b8e; --danger: #e8685e; --ok: #5cc48f; --warn: #e4b04a;
+  --on-accent: #1a1405; --on-accent-2: #3d2f0b;
+  --radius: 14px; --shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  --font: 'Heebo', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Frank Ruhl Libre', 'Heebo', Georgia, serif;
+}
